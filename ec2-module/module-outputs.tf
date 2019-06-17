@@ -1,6 +1,3 @@
-# terraform-aws-infrastructure
-In progress..
-
 #Outputs so it can be used outside of this module
 
 output "instance_ids" {

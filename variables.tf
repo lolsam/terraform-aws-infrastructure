@@ -42,3 +42,14 @@ variable "enable_dns_support" {
 variable "alarms_email" {
   default = "youremail@gmail.com"
 }
+
+#------------tag variables--------------
+
+variable "app_tags" {
+  type = map(string)
+
+  default = {
+    "Environment"     = "stage"
+    "App"     = "sample"
+  }
+}
